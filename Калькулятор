@@ -1,0 +1,31 @@
+a = float(input('Введите первое число: '))
+b = float(input('Введите второе число: '))
+c = float(input('Введите третье число: '))
+x = input('Введите первое действие с числом ')
+y = input('Введите второе действие с числом ')
+
+if x == '+':
+    print(a+b)
+elif x == '-':
+    print(a - b)
+elif x == '*':
+    print(a * b)
+elif x == '-':
+    if b != 0:
+        print(a / b)
+    else:
+        print("Деление на ноль")
+
+if y == '+':
+    print(b+c)
+elif y == '-':
+    print(b-c)
+elif y == '*':
+    print(b * c)
+elif y == '-':
+    if b != 0:
+        print(b / c)
+    else:
+        print("Деление на ноль")
+
+
